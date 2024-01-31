@@ -3,15 +3,25 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "db:migrate": "drizzle-kit generate:sqlite",
+    "db:push": "drizzle-kit push:sqlite",
+    "db:studio": "drizzle-kit studio",
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 3001",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.20.12",
     "nuxt": "^3.9.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@libsql/client": "0.4.0-pre.7",
+    "@lucia-auth/adapter-sqlite": "^2.0.1",
+    "drizzle-orm": "^0.29.3",
+    "lucia": "^2.7.6"
   }
 }
