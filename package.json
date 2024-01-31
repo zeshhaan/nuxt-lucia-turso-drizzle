@@ -13,7 +13,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.20.12",
+    "drizzle-kit": "^0.20.13",
     "nuxt": "^3.9.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
