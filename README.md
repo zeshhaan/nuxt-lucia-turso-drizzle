@@ -1,8 +1,12 @@
-# Uses
+# Nuxt 3 + Lucia Auth + Drizzle ORM + Turso
+
+The modern full-stack Nuxt 3 starter template with Authentication, SQLite ORM and Turso DB to build your next SaaS application.
+
+## Uses
 
 [Nuxt 3](https://nuxt.com/docs/getting-started/introduction)
 
-[Lucia Auth](https://lucia-auth.com/reference/lucia/interfaces/auth/)
+[Lucia Auth v2](https://lucia-auth.com/reference/lucia/interfaces/auth/)
 
 [Drizzle ORM](orm.drizzle.team)
 
