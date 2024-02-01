@@ -28,7 +28,7 @@ const handleResend = async (e: Event) => {
   <h2>Resend verification link</h2>
   <form
     method="post"
-    action="/api/email-verification"
+    action="/api/auth/email-verification"
     @submit.prevent="handleResend"
   >
     <input type="submit" value="Resend" />

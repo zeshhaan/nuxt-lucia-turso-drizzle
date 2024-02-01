@@ -1,5 +1,5 @@
 export const sendEmailVerificationLink = async (token: string) => {
-  const url = `http://localhost:3000/api/email-verification/${token}`;
+  const url = `http://localhost:3000/api/auth/email-verification/${token}`;
   console.log(`Your email verification link: ${url}`);
 };
 
