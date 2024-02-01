@@ -1,6 +1,6 @@
 # Nuxt 3 + Lucia Auth + Drizzle ORM + Turso
 
-The modern full-stack Nuxt 3 starter template with Authentication, SQLite ORM and Turso DB to build your next SaaS application.
+A barebone full-stack Nuxt 3 starter template with Authentication, and SQLite DB for your next SaaS app.
 
 ## Uses
 
@@ -20,7 +20,7 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
-## Copy the .env.example file
+### Copy the .env.example file
 
 ```bash
 cp .env.example .env
@@ -28,23 +28,23 @@ cp .env.example .env
 
 Setup turso and fill in the turso db credentials
 
-## Update the scheme
+### Update the scheme
 
 Update the schema to fit your needs in [database/schema.ts](server/database/schema.ts) folder
 
-## Run migration
-
-```bash
-pnpm run db:migrate
-```
-
-## Push migration
+### Push migration
 
 ```bash
 pnpm run db:push
 ```
 
-## Open the database GUI
+### Run migration
+
+```bash
+pnpm run db:migrate
+```
+
+### Open the database GUI
 
 ```bash
 pnpm run db:studio
@@ -52,10 +52,8 @@ pnpm run db:studio
 
 which will run drizzle kit studio
 
-## Development Server
+### Development Server
 
 ```bash
 pnpm run dev
 ```
-
-Make changes and watch the magic happen
