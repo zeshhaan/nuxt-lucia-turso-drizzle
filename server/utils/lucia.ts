@@ -5,7 +5,7 @@ import { database } from "./db";
 
 export const auth = lucia({
   middleware: h3(),
-  env: process.dev ? "DEV" : "PROD",
+  env: import.meta.dev ? "DEV" : "PROD",
   adapter: libsql(database, {
     user: "user",
     key: "user_key",
